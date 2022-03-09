@@ -54,7 +54,6 @@ namespace CalculatorTest
         }
 
         [Theory]
-        [InlineData("-5")]
         [InlineData("-7,12")]
         [InlineData("12\n-7")]
         public void NegativeNumbersThrowAnException(string s)
